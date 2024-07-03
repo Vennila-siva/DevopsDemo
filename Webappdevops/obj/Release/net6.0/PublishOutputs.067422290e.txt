@@ -1,0 +1,7 @@
+C:\Users\vmurugesan\source\repos\DevopsDemo\Webappdevops\obj\Release\net6.0\PubTmp\Out\Webappdevops.exe
+C:\Users\vmurugesan\source\repos\DevopsDemo\Webappdevops\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\vmurugesan\source\repos\DevopsDemo\Webappdevops\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\vmurugesan\source\repos\DevopsDemo\Webappdevops\obj\Release\net6.0\PubTmp\Out\Webappdevops.dll
+C:\Users\vmurugesan\source\repos\DevopsDemo\Webappdevops\obj\Release\net6.0\PubTmp\Out\Webappdevops.deps.json
+C:\Users\vmurugesan\source\repos\DevopsDemo\Webappdevops\obj\Release\net6.0\PubTmp\Out\Webappdevops.runtimeconfig.json
+C:\Users\vmurugesan\source\repos\DevopsDemo\Webappdevops\obj\Release\net6.0\PubTmp\Out\Webappdevops.pdb

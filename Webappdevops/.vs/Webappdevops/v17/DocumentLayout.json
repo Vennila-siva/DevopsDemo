@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|c:\\users\\vmurugesan\\source\\repos\\devopsdemo\\webappdevops\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|solutionrelative:repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|c:\\users\\vmurugesan\\source\\repos\\devopsdemo\\webappdevops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|c:\\users\\vmurugesan\\source\\repos\\devopsdemo\\webappdevops\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|c:\\users\\vmurugesan\\source\\repos\\devopsdemo\\webappdevops\\repository\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|solutionrelative:repository\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913D3C5D-6C0F-47CB-8CDD-ED6DC98612CF}|..\\Webappdevops.Test\\Webappdevops.Test.csproj|c:\\users\\vmurugesan\\source\\repos\\devopsdemo\\webappdevops.test\\posttestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|c:\\users\\vmurugesan\\source\\repos\\devopsdemo\\webappdevops\\models\\postviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|solutionrelative:models\\postviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|c:\\users\\vmurugesan\\source\\repos\\devopsdemo\\webappdevops\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|c:\\users\\vmurugesan\\source\\repos\\devopsdemo\\webappdevops\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|c:\\users\\vmurugesan\\source\\repos\\devopsdemo\\webappdevops\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B9E46B2-695C-4881-BE3A-415979E9B76F}|Webappdevops.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Repository\\PostRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Repository\\PostRepository.cs",
+              "RelativeToolTip": "Repository\\PostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:47:34.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:47:33.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Repository\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IPostRepository.cs",
+              "ToolTip": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Repository\\IPostRepository.cs",
+              "RelativeToolTip": "Repository\\IPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:47:34.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostTestController.cs",
+              "DocumentMoniker": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops.Test\\PostTestController.cs",
+              "RelativeDocumentMoniker": "..\\Webappdevops.Test\\PostTestController.cs",
+              "ToolTip": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops.Test\\PostTestController.cs",
+              "RelativeToolTip": "..\\Webappdevops.Test\\PostTestController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswCEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:47:34.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Models\\PostViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PostViewModel.cs",
+              "ToolTip": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Models\\PostViewModel.cs",
+              "RelativeToolTip": "Models\\PostViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:47:34.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAtwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:47:34.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T09:47:34.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T09:47:34.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:47:34.245Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

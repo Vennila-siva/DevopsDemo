@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "48Q+tnPtkkcQPrmxAoV7rvkRPh6Hbx3/jVRM0JQPwrtdizDSDelRdPw9MeOLQfacjLwX14AvjtfSM9PottXkbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vmurugesan\\source\\repos\\DevopsDemo\\Webappdevops\\Webappdevops.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vmurugesan\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.29\\microsoft.netcore.app.runtime.win-x64.6.0.29.nupkg.sha512",
+    "C:\\Users\\vmurugesan\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.29\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.29.nupkg.sha512",
+    "C:\\Users\\vmurugesan\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.29\\microsoft.aspnetcore.app.runtime.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
