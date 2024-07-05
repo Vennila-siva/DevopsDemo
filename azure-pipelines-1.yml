@@ -45,21 +45,21 @@ stages:
                     ActionIISWebsite: 'StopWebsite'
                     StartStopWebsiteName: '${{ variables.IISWebsiteName }}'
 
-                - task: IISWebAppDeploymentOnMachineGroup@0
-                  name: 'DeployIIS'
-                  displayName: 'Deploy IIS website'
-                  inputs:
-                    WebSiteName: '${{ variables.IISWebsiteName }}'
-                    Package: '$(Pipeline.Worksapce)\buildPipeline\Webappdevops\Webappdevops'
-                    TakeAppOfflineFlag: true
+                # - task: IISWebAppDeploymentOnMachineGroup@0
+                #   name: 'DeployIIS'
+                #   displayName: 'Deploy IIS website'
+                #   inputs:
+                #     WebSiteName: '${{ variables.IISWebsiteName }}'
+                #     Package: '$(Pipeline.Worksapce)\buildPipeline\Webappdevops\Webappdevops'
+                #     TakeAppOfflineFlag: true
                   
-                - task: IISWebAppManagementOnMachineGroup@0
-                  name: 'StartIIS'
-                  displayName: 'Start IIS website'
-                  inputs:
-                    IISDeploymentType: 'IISWebsite'
-                    ActionIISWebsite: 'StartWebsite'
-                    StartStopWebsiteName: '${{ variables.IISWebsiteName }}'
+                # - task: IISWebAppManagementOnMachineGroup@0
+                #   name: 'StartIIS'
+                #   displayName: 'Start IIS website'
+                #   inputs:
+                #     IISDeploymentType: 'IISWebsite'
+                #     ActionIISWebsite: 'StartWebsite'
+                #     StartStopWebsiteName: '${{ variables.IISWebsiteName }}'
 
 
 
