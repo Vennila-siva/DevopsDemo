@@ -3,3 +3,66 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+trigger:
+  none
+
+variables:
+  IISWebsiteName: 'Webappdevops'
+
+resources:
+ pipelines:
+     - pipeline: 'buildPipeline'
+       project: 'DevopsDemo'
+       source: 'Build pipeline'
+       branch: 'master'
+
+stages:
+  - stage: DeployWebsite
+    displayName: 'Deploy website'
+    pool:
+      vmImage: 'windows-latest'
+    
+    jobs:
+    - deployment: Deploywebsite
+      displayName: 'Deploy website'
+      environment: 'Windows 10 server.ITEM-S133047'
+      strategy:
+       runOnce:
+           deploy:
+            steps:
+                - checkout: none
+
+                - download: 'buildPipeline'
+                  name: 'DownloadBuildArtifacts'
+                  displayName: 'Download Build Artifacts'
+                  artifact: 'Webappdevops'
+
+                - task: IISWebAppManagementOnMachineGroup@0
+                  name: 'StopIIS'
+                  displayName: 'Stop IIS website'
+                  inputs:
+                    IISDeploymentType: 'IISWebsite'
+                    ActionIISWebsite: 'StopWebsite'
+                    StartStopWebsiteName: '${{ variables.IISWebsiteName }}'
+
+                - task: IISWebAppDeploymentOnMachineGroup@0
+                  name: 'DeployIIS'
+                  displayName: 'Deploy IIS website'
+                  inputs:
+                    WebSiteName: '${{ variables.IISWebsiteName }}'
+                    Package: '$(Pipeline.Worksapce)\buildPipeline\Webappdevops\Vennila-siva.DeveopsDemo'
+                    TakeAppOfflineFlag: true
+                  
+                - task: IISWebAppManagementOnMachineGroup@0
+                  name: 'StartIIS'
+                  displayName: 'Start IIS website'
+                  inputs:
+                    IISDeploymentType: 'IISWebsite'
+                    ActionIISWebsite: 'StartWebsite'
+                    StartStopWebsiteName: '${{ variables.IISWebsiteName }}'
+
+
+
+
+
+
