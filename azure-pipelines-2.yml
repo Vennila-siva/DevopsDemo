@@ -25,7 +25,7 @@ steps:
   inputs:
     command: 'Test'
     projects: '**/Webappdevops.Test.csproj'
-    arguments: '--configuration $(BuildConfiguration) --collect "XPlat Code Coverage" --settings:./cubertura.settings.xml'
+    arguments: '--configuration $(BuildConfiguration) --collect "XPlat Code Coverage"'
 
 - task: PublishCodeCoverageResults@1
   displayName: Publish Code Coverage
