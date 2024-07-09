@@ -24,7 +24,7 @@ steps:
   displayName: Unit tests
   inputs:
     command: 'Test'
-    projects: '**/*.Webappdevops.Test.csproj'
+    projects: '**/Webappdevops.Test.csproj'
     arguments: '--configuration $(BuildConfiguration) --collect "XPlat Code Coverage" --settings:./cubertura.settings.xml'
 
 - task: PublishCodeCoverageResults@1
