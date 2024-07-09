@@ -1,0 +1,34 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: windows-latest
+
+variables:
+  BuildConfiguration: 'Release'
+
+steps:
+- task: DotNetCoreCLI@2
+  displayName: Build
+  inputs:
+    command: 'build'
+    projects: '**/*.Webappdevops.csproj'
+    arguments: '--configuration $(BuildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  displayName: Unit tests
+  inputs:
+    command: 'Test'
+    projects: '**/*.Webappdevops.Test.csproj'
+    arguments: '--configuration $(BuildConfiguration) --collect "XPlat Code Coverage" --settings:./cubertura.settings.xml'
+
+- task: PublishCodeCoverageResults@1
+  displayName: Publish Code Coverage
+  inputs:
+    codeCoverageTool: 'Cobertura'
+    summaryFileLocation: '$(Agent.TempDirectory)/**/coverage.cobertura.xml'
