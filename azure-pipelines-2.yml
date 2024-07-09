@@ -17,7 +17,7 @@ steps:
   displayName: Build
   inputs:
     command: 'build'
-    projects: '**/*.Webappdevops.csproj'
+    projects: '**/Webappdevops.csproj'
     arguments: '--configuration $(BuildConfiguration)'
 
 - task: DotNetCoreCLI@2
