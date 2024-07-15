@@ -23,7 +23,7 @@ steps:
 - task: DotNetCoreCLI@2
   displayName: Unit tests
   inputs:
-    command: 'Test'
+    command: 'test'
     projects: '**/Webappdevops.Test.csproj'
     arguments: '--configuration $(BuildConfiguration) --collect "XPlat Code Coverage"'
 
