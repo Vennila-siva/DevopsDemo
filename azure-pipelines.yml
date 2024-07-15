@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 trigger:
-- master
+  none
 
 pool:
   vmImage: 'windows-latest'
@@ -29,13 +29,13 @@ steps:
     restoreSolution: '$(solution)'
     feedsToUse: 'select'
 
-- task: SonarQubePrepare@6
-  inputs:
-    SonarQube: 'DevopsDemo'
-    scannerMode: 'MSBuild'
-    projectKey: 'DevopsDemo_DevopsDemo_AZCgl3FgD1GbBnAkoG5d'
-    projectName: 'DevopsDemo'
-  
+# - task: SonarQubePrepare@6
+#   inputs:
+#     SonarQube: 'DevopsDemo'
+#     scannerMode: 'MSBuild'
+#     projectKey: 'DevopsDemo_DevopsDemo_AZCgl3FgD1GbBnAkoG5d'
+#     projectName: 'DevopsDemo'
+
 - task: DotNetCoreCLI@2
   name: 'test'
   displayName: 'Run test'
