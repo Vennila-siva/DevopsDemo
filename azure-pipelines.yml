@@ -44,9 +44,9 @@ steps:
     projects: '$(solution)'
     arguments: '--configuration $(buildConfiguration)'
 
-- task: SonarQubeAnalyze@6
-  inputs:
-    jdkversion: 'JAVA_HOME'
+# - task: SonarQubeAnalyze@6
+#   inputs:
+#     jdkversion: 'JAVA_HOME'
 
 - task: DotNetCoreCLI@2
   name: 'publish'
