@@ -35,6 +35,8 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: 'DevopsDemo_DevopsDemo_AZCgl3FgD1GbBnAkoG5d'
     projectName: 'DevopsDemo'
+    extraProperties: |
+      sonar.host.url=http://10.168.185.127:9097/
 
 - task: DotNetCoreCLI@2
   name: 'test'
