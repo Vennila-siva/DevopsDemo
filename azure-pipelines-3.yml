@@ -6,8 +6,7 @@
 trigger:
   none
 
-pool:
-  vmImage: 'windows-latest'
+pool: 'Self host'
 
 variables:
   solution: '**/*.sln'
