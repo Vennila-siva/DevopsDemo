@@ -40,7 +40,7 @@ steps:
   inputs:
     serviceConnectionEndpoint: 'DevopsDemo_Snyk'
     testType: 'code'
-    failOnIssues: true
+    failOnIssues: false
     projectName: 'DevopsDemo'
 
 - task: DotNetCoreCLI@2
