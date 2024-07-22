@@ -36,6 +36,13 @@ steps:
 #     projectKey: 'DevopsDemo_DevopsDemo_AZCgl3FgD1GbBnAkoG5d'
 #     projectName: 'DevopsDemo'
 
+- task: SnykSecurityScan@1
+  inputs:
+    serviceConnectionEndpoint: 'DevopsDemo_Snyk'
+    testType: 'code'
+    failOnIssues: true
+    projectName: 'DevopsDemo'
+
 - task: DotNetCoreCLI@2
   name: 'test'
   displayName: 'Run test'
